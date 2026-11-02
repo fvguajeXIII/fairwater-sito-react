@@ -1,7 +1,10 @@
 import Art from "../components/Art.jsx";
 import Icon from "../components/Icon.jsx";
+<<<<<<< HEAD
 import { CONFIG } from "../config.js";
 import Stores from "../components/Stores.jsx";
+=======
+>>>>>>> a0634c4f61902922b1e813e31246e113b82a3693
 import Wave from "../components/Wave.jsx";
 
 export default function Persone() {
@@ -14,7 +17,11 @@ export default function Persone() {
             <h1>Una borraccia in regalo e acqua gratis nei bar della rete.</h1>
             <p className="lead">La borraccia FairWater la paga un'azienda del territorio e tu la ricevi a un evento. Da quel momento puoi riempirla senza pagare in tutti i bar che aderiscono.</p>
             <div className="actions">
+<<<<<<< HEAD
               <a className="btn btn-white" href={CONFIG.webappUrl}>Apri la webapp <Icon name="down" /></a>
+=======
+              <a className="btn btn-white" href="/webapp">Apri la web app <Icon name="arrow" /></a>
+>>>>>>> a0634c4f61902922b1e813e31246e113b82a3693
               <a className="btn btn-ghost" href="#regole">Leggi le regole</a>
             </div>
           </div>
@@ -62,14 +69,23 @@ export default function Persone() {
         </div>
       </section>
 
+<<<<<<< HEAD
       <section className="band band-white" id="app" aria-label="Apri la webapp" style={{ paddingTop: 0 }}>
         <div className="wrap">
           <div className="app-strip dark">
             <div>
               <h2>Apri la webapp FairWater.</h2>
               <p>È gratuita e funziona dal browser, senza scaricare nulla. Ti serve per attivare la borraccia e per mostrare il codice al bancone.</p>
+=======
+      <section className="band band-white" id="app" aria-label="Apri la web app" style={{ paddingTop: 0 }}>
+        <div className="wrap">
+          <div className="app-strip dark">
+            <div>
+              <h2>Apri FairWater dal browser.</h2>
+              <p>La web app è pronta per computer e smartphone. Accedi per attivare la borraccia e mostrare il codice al bancone.</p>
+>>>>>>> a0634c4f61902922b1e813e31246e113b82a3693
             </div>
-            <Stores />
+            <a className="btn btn-white" href="/webapp">Entra nella web app <Icon name="arrow" /></a>
           </div>
         </div>
       </section>

@@ -58,8 +58,13 @@ export default function Header({ active }) {
                 {item.label}
               </a>
             ))}
+<<<<<<< HEAD
             <a className="nav-cta" href={CONFIG.webappUrl}>
               Apri la webapp
+=======
+            <a className="nav-cta" href="/webapp">
+              Apri la web app
+>>>>>>> a0634c4f61902922b1e813e31246e113b82a3693
             </a>
           </nav>
         </div>

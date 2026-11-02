@@ -1,7 +1,10 @@
 import Art from "../components/Art.jsx";
 import Icon from "../components/Icon.jsx";
+<<<<<<< HEAD
 import { CONFIG } from "../config.js";
 import Stores from "../components/Stores.jsx";
+=======
+>>>>>>> a0634c4f61902922b1e813e31246e113b82a3693
 import Wave from "../components/Wave.jsx";
 
 export default function Home() {
@@ -14,7 +17,11 @@ export default function Home() {
             <h1>Questa borraccia si riempie <span className="hl">gratis</span> in tutti i bar della rete.</h1>
             <p className="lead">Te la regalano le aziende del territorio agli eventi della tua zona. Al bancone mostri il codice dell'app e il barista te la riempie di acqua filtrata.</p>
             <div className="actions">
+<<<<<<< HEAD
               <a className="btn btn-white" href={CONFIG.webappUrl}>Apri la webapp <Icon name="down" /></a>
+=======
+              <a className="btn btn-white" href="/webapp">Apri la web app <Icon name="arrow" /></a>
+>>>>>>> a0634c4f61902922b1e813e31246e113b82a3693
               <a className="btn btn-ghost" href="persone.html">Come ricevere la borraccia</a>
             </div>
           </div>
@@ -31,13 +38,19 @@ export default function Home() {
           <div className="phone-stage"><Art name="phone" /></div>
           <div className="app-copy">
             <span className="label">Hai già la borraccia?</span>
+<<<<<<< HEAD
             <h2 id="app-titolo">Apri la webapp e riempila al primo bar della rete.</h2>
             <ol className="numbered">
               <li><h3>Apri FairWater</h3><p>La webapp è gratuita e funziona direttamente dal browser, senza scaricare nulla.</p></li>
+=======
+            <h2 id="app-titolo">Apri FairWater dal browser e riempila al primo bar della rete.</h2>
+            <ol className="numbered">
+              <li><h3>Apri FairWater</h3><p>La web app funziona da browser, su computer e smartphone: non serve installarla.</p></li>
+>>>>>>> a0634c4f61902922b1e813e31246e113b82a3693
               <li><h3>Attiva la borraccia</h3><p>Inserisci il codice della campagna che ricevi all'evento insieme alla borraccia.</p></li>
               <li><h3>Mostra il codice al bancone</h3><p>Il barista lo legge e ti riempie la borraccia. Puoi tenere il codice in un widget sulla schermata del telefono.</p></li>
             </ol>
-            <Stores />
+            <a className="btn btn-navy" href="/webapp">Entra nella web app <Icon name="arrow" /></a>
             <p className="small">Puoi fare 3 ricariche al giorno in inverno e 5 in estate, solo con la borraccia FairWater. <a href="persone.html#regole">Leggi tutte le regole</a></p>
           </div>
         </div>
