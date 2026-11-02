@@ -5,6 +5,10 @@
       "destination": "https://fairwater-app.web.app/"
     },
     {
+      "source": "/webapp/",
+      "destination": "https://fairwater-app.web.app/"
+    },
+    {
       "source": "/webapp/:path*",
       "destination": "https://fairwater-app.web.app/:path*"
     }
