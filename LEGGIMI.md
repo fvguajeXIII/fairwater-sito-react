@@ -18,7 +18,7 @@ npm run preview  # prova in locale la cartella dist/
 ```
 index.html              modello comune a tutte le pagine
 src/
-  config.js             email, dati societari, link degli store, indirizzo dei moduli
+  config.js             email, dati societari, indirizzo della webapp, indirizzo dei moduli
   pages.js              elenco pagine: file, titolo, descrizione, voce di menu attiva
   main.jsx              avvio nel browser (si aggancia all'HTML già generato)
   entry-server.jsx      rendering in HTML usato dalla build
@@ -44,14 +44,14 @@ In `src/config.js`:
 
 - `email`: finché è vuoto, le righe con l'email non compaiono e al loro posto restano i link ai moduli;
 - `sede`, `piva`, `rea`: dati societari del footer (la P.IVA sul sito è obbligatoria per legge);
-- `appStoreUrl`, `playStoreUrl`: schede dell'app, oggi `#`;
+- `webappUrl`: indirizzo della webapp (https://www.fairwater.it/webapp);
 - `relazione2026Url`: PDF della relazione d'impatto;
 - `formEndpoint`: URL che riceve i moduli in POST JSON. Ogni invio contiene `modulo` (`bar` o `azienda`), `pagina` e i campi del form. Finché è vuoto, il modulo avvisa che nel prototipo i dati non vengono inviati.
 
 Restano da fare:
 
 - **Privacy**: `src/pages/Privacy.jsx` è una bozza basata su quello che il sito fa davvero (moduli, app, nessun cookie). Va verificata dal consulente legale.
-- **Badge degli store**: i pulsanti sono disegnati senza i marchi; per la versione definitiva vanno usati i badge ufficiali di Apple e Google.
+- **Webapp**: il pulsante "Apri la webapp" punta a `webappUrl`; verifica che l'indirizzo sia raggiungibile.
 - **Foto**: va verificata la liberatoria per le persone riconoscibili nell'etichetta della borraccia (`public/img/borraccia-scontornata.*`).
 
 ## Scelte tecniche

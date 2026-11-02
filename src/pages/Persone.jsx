@@ -1,5 +1,6 @@
 import Art from "../components/Art.jsx";
 import Icon from "../components/Icon.jsx";
+import { CONFIG } from "../config.js";
 import Stores from "../components/Stores.jsx";
 import Wave from "../components/Wave.jsx";
 
@@ -13,7 +14,7 @@ export default function Persone() {
             <h1>Una borraccia in regalo e acqua gratis nei bar della rete.</h1>
             <p className="lead">La borraccia FairWater la paga un'azienda del territorio e tu la ricevi a un evento. Da quel momento puoi riempirla senza pagare in tutti i bar che aderiscono.</p>
             <div className="actions">
-              <a className="btn btn-white" href="#app">Scarica l'app <Icon name="down" /></a>
+              <a className="btn btn-white" href={CONFIG.webappUrl}>Apri la webapp <Icon name="down" /></a>
               <a className="btn btn-ghost" href="#regole">Leggi le regole</a>
             </div>
           </div>
@@ -61,12 +62,12 @@ export default function Persone() {
         </div>
       </section>
 
-      <section className="band band-white" id="app" aria-label="Scarica l'app" style={{ paddingTop: 0 }}>
+      <section className="band band-white" id="app" aria-label="Apri la webapp" style={{ paddingTop: 0 }}>
         <div className="wrap">
           <div className="app-strip dark">
             <div>
-              <h2>Scarica l'app FairWater.</h2>
-              <p>È gratuita, per iPhone e per Android. Ti serve per attivare la borraccia e per mostrare il codice al bancone.</p>
+              <h2>Apri la webapp FairWater.</h2>
+              <p>È gratuita e funziona dal browser, senza scaricare nulla. Ti serve per attivare la borraccia e per mostrare il codice al bancone.</p>
             </div>
             <Stores />
           </div>
@@ -123,8 +124,8 @@ export default function Persone() {
               <div className="answer"><p>No. Il servizio vale solo per le borracce FairWater e il barista può rifiutare gli altri contenitori. È anche il modo in cui le aziende che pagano le borracce ottengono visibilità.</p></div>
             </details>
             <details>
-              <summary>Dove scarico l'app?</summary>
-              <div className="answer"><p>Su App Store per iPhone e su Google Play per Android: cerca FairWater oppure usa i pulsanti in questa pagina.</p></div>
+              <summary>Dove trovo l'app?</summary>
+              <div className="answer"><p>Non devi scaricare nulla: FairWater è una webapp che si apre dal browser su www.fairwater.it/webapp, da iPhone e da Android. Usa il pulsante in questa pagina.</p></div>
             </details>
             <details>
               <summary>Che dati raccoglie l'app?</summary>

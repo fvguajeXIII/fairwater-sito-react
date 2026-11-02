@@ -6,8 +6,7 @@ export const CONFIG = {
   sede: "Via Trento 7",
   piva: "03380680599",
   rea: "LT - 337366",
-  appStoreUrl: "#", // scheda App Store
-  playStoreUrl: "#", // scheda Google Play
+  webappUrl: "https://www.fairwater.it/webapp", // webapp FairWater
   relazione2026Url: "#", // PDF della relazione d'impatto 2026
   formEndpoint: "", // URL che riceve i moduli in POST JSON
   siteUrl: "https://www.fairwater.it",

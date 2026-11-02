@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Icon from "./Icon.jsx";
+import { CONFIG } from "../config.js";
 import { Logo } from "./Logo.jsx";
 
 const NAV = [
@@ -57,8 +58,8 @@ export default function Header({ active }) {
                 {item.label}
               </a>
             ))}
-            <a className="nav-cta" href="index.html#app">
-              Scarica l'app
+            <a className="nav-cta" href={CONFIG.webappUrl}>
+              Apri la webapp
             </a>
           </nav>
         </div>
