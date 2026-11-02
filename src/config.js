@@ -3,9 +3,9 @@
 // i dati societari mancanti compaiono come segnaposto sottolineati.
 export const CONFIG = {
   email: "", // es. info@fairwater.it
-  sede: "", // indirizzo della sede legale
-  piva: "", // partita IVA / codice fiscale
-  rea: "", // numero REA (LT-...)
+  sede: "Via Trento 7",
+  piva: "03380680599",
+  rea: "LT - 337366",
   appStoreUrl: "#", // scheda App Store
   playStoreUrl: "#", // scheda Google Play
   relazione2026Url: "#", // PDF della relazione d'impatto 2026
