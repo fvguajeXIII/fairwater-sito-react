@@ -1,10 +1,10 @@
 <svg class="sticker" viewBox="0 0 200 200" aria-hidden="true">
   <defs><path id="st-ring" d="M100 100m-75 0a75 75 0 1 1 150 0a75 75 0 1 1-150 0"/></defs>
-  <circle cx="100" cy="100" r="97" fill="#FFD23F"/>
-  <circle cx="100" cy="100" r="54" fill="none" stroke="#0A1F3C" stroke-width="2" stroke-dasharray="3 5"/>
+  <circle cx="100" cy="100" r="97" fill="#0A1F3C"/>
+  <circle cx="100" cy="100" r="54" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="3 5"/>
   <g class="sticker-ring">
-    <text fill="#0A1F3C" font-family="Instrument Sans, system-ui, sans-serif" font-weight="700" font-size="17" letter-spacing="2"><textPath href="#st-ring" textLength="466" lengthAdjust="spacing">ACQUA GRATIS · NEI BAR DELLA RETE · </textPath></text>
+    <text fill="#FFFFFF" font-family="Instrument Sans, system-ui, sans-serif" font-weight="700" font-size="17" letter-spacing="2"><textPath href="#st-ring" textLength="466" lengthAdjust="spacing">ACQUA GRATIS · NEI BAR DELLA RETE · </textPath></text>
   </g>
-  <path d="M100 64C100 64 76 92 76 110a24 24 0 0 0 48 0C124 92 100 64 100 64Z" fill="#0A1F3C"/>
-  <path d="M89 108a12 12 0 0 0 8 13" fill="none" stroke="#FFD23F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M100 64C100 64 76 92 76 110a24 24 0 0 0 48 0C124 92 100 64 100 64Z" fill="#FFFFFF"/>
+  <path d="M89 108a12 12 0 0 0 8 13" fill="none" stroke="#0A1F3C" stroke-width="4" stroke-linecap="round"/>
 </svg>
