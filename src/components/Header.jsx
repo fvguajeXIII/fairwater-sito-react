@@ -57,8 +57,8 @@ export default function Header({ active }) {
                 {item.label}
               </a>
             ))}
-            <a className="nav-cta" href="index.html#app">
-              Scarica l'app
+            <a className="nav-cta" href="/webapp">
+              Apri la web app
             </a>
           </nav>
         </div>

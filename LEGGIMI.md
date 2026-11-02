@@ -13,6 +13,19 @@ npm run preview  # prova in locale la cartella dist/
 
 `dist/` si pubblica così com'è su qualsiasi hosting statico. Su Vercel: build command `npm run build`, output directory `dist`, nessun framework preset. I percorsi sono relativi (`base: "./"`), quindi il sito funziona anche in una sottocartella.
 
+## Web app FairWater
+
+La route `https://www.fairwater.it/webapp` è instradata da `vercel.json` verso il sito Firebase Hosting `fairwater-app`. Gli asset sotto `/webapp/` vengono inoltrati allo stesso hosting, così il sito React e la web app Flutter restano pubblicati separatamente.
+
+Per aggiornare la web app, dalla repository Flutter:
+
+```
+flutter build web --release --base-href=/webapp/
+firebase deploy --only hosting:public --project fairwater-app
+```
+
+Il deploy Vercel del sito applica la route e i collegamenti "Apri la web app". Se si cambia il sito Firebase o la route, aggiornare insieme le destinazioni in `vercel.json` e il `base-href` Flutter.
+
 ## Come è fatto
 
 ```

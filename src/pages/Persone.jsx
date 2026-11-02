@@ -1,6 +1,5 @@
 import Art from "../components/Art.jsx";
 import Icon from "../components/Icon.jsx";
-import Stores from "../components/Stores.jsx";
 import Wave from "../components/Wave.jsx";
 
 export default function Persone() {
@@ -13,7 +12,7 @@ export default function Persone() {
             <h1>Una borraccia in regalo e acqua gratis nei bar della rete.</h1>
             <p className="lead">La borraccia FairWater la paga un'azienda del territorio e tu la ricevi a un evento. Da quel momento puoi riempirla senza pagare in tutti i bar che aderiscono.</p>
             <div className="actions">
-              <a className="btn btn-white" href="#app">Scarica l'app <Icon name="down" /></a>
+              <a className="btn btn-white" href="/webapp">Apri la web app <Icon name="arrow" /></a>
               <a className="btn btn-ghost" href="#regole">Leggi le regole</a>
             </div>
           </div>
@@ -61,14 +60,14 @@ export default function Persone() {
         </div>
       </section>
 
-      <section className="band band-white" id="app" aria-label="Scarica l'app" style={{ paddingTop: 0 }}>
+      <section className="band band-white" id="app" aria-label="Apri la web app" style={{ paddingTop: 0 }}>
         <div className="wrap">
           <div className="app-strip dark">
             <div>
-              <h2>Scarica l'app FairWater.</h2>
-              <p>È gratuita, per iPhone e per Android. Ti serve per attivare la borraccia e per mostrare il codice al bancone.</p>
+              <h2>Apri FairWater dal browser.</h2>
+              <p>La web app è pronta per computer e smartphone. Accedi per attivare la borraccia e mostrare il codice al bancone.</p>
             </div>
-            <Stores />
+            <a className="btn btn-white" href="/webapp">Entra nella web app <Icon name="arrow" /></a>
           </div>
         </div>
       </section>
