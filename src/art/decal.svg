@@ -1,0 +1,11 @@
+<svg class="decal" viewBox="0 0 300 300" role="img" aria-label="L'adesivo FairWater per la vetrina del bar: qui riempi la tua borraccia">
+  <defs><path id="dc-ring" d="M150 150m-104 0a104 104 0 1 1 208 0a104 104 0 1 1-208 0"/></defs>
+  <circle cx="150" cy="150" r="136" fill="#FFFFFF"/>
+  <circle cx="150" cy="150" r="124" fill="none" stroke="#2A6DD4" stroke-width="3"/>
+  <circle cx="150" cy="150" r="84" fill="#EAF3FF"/>
+  <text fill="#0A1F3C" font-family="Instrument Sans, system-ui, sans-serif" font-weight="700" font-size="17" letter-spacing="2"><textPath href="#dc-ring" textLength="648" lengthAdjust="spacing">QUI RIEMPI LA TUA BORRACCIA · QUI RIEMPI LA TUA BORRACCIA · </textPath></text>
+  <use href="#fw-logo" x="88" y="128" width="124" height="29.5" style="--logo-a:#0A1F3C;--logo-b:#2A6DD4"/>
+  <rect x="104" y="170" width="92" height="26" rx="13" fill="#FFD23F"/>
+  <text x="150" y="188" text-anchor="middle" fill="#0A1F3C" font-family="Instrument Sans, system-ui, sans-serif" font-weight="700" font-size="13" letter-spacing="1.5">ACQUA GRATIS</text>
+  <path d="M40 92L92 40M30 128L128 30" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="10" stroke-linecap="round"/>
+</svg>

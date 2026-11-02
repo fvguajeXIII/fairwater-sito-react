@@ -1,0 +1,10 @@
+<svg class="pictogram" viewBox="0 0 520 96" role="img" aria-label="Dieci borracce, una evidenziata: il 10% di ogni campagna va ai progetti per l'acqua">
+  <defs><path id="pg-b" d="M15 12V17C15 21 12 23 9 25C5 28 3 31 3 36V78Q3 88 13 88H31Q41 88 41 78V36C41 31 39 28 35 25C32 23 29 21 29 17V12Z"/></defs>
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" opacity="0.75">
+    <use href="#pg-b" x="0"/><use href="#pg-b" x="52"/><use href="#pg-b" x="104"/><use href="#pg-b" x="156"/><use href="#pg-b" x="208"/><use href="#pg-b" x="260"/><use href="#pg-b" x="312"/><use href="#pg-b" x="364"/><use href="#pg-b" x="416"/>
+  </g>
+  <g fill="currentColor" opacity="0.75">
+    <rect x="12" y="2" width="20" height="10" rx="2"/><rect x="64" y="2" width="20" height="10" rx="2"/><rect x="116" y="2" width="20" height="10" rx="2"/><rect x="168" y="2" width="20" height="10" rx="2"/><rect x="220" y="2" width="20" height="10" rx="2"/><rect x="272" y="2" width="20" height="10" rx="2"/><rect x="324" y="2" width="20" height="10" rx="2"/><rect x="376" y="2" width="20" height="10" rx="2"/><rect x="428" y="2" width="20" height="10" rx="2"/>
+  </g>
+  <g class="pg-one"><use href="#pg-b" x="468" fill="#FFD23F" stroke="#FFD23F" stroke-width="3" stroke-linejoin="round"/><rect x="480" y="2" width="20" height="10" rx="2" fill="#FFD23F"/></g>
+</svg>

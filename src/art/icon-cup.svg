@@ -1,0 +1,7 @@
+<svg class="door-ico" viewBox="0 0 120 120" aria-hidden="true">
+  <defs><clipPath id="ic-in"><path d="M28 54h54v12a24 24 0 0 1-24 24h-6a24 24 0 0 1-24-24z"/></clipPath></defs>
+  <g clip-path="url(#ic-in)"><path class="ico-water" d="M0 64q8-5 16 0t16 0t16 0t16 0t16 0t16 0t16 0V100H0z"/></g>
+  <path d="M28 54h54v12a24 24 0 0 1-24 24h-6a24 24 0 0 1-24-24z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M82 60h6a10 10 0 0 1 0 20h-9M18 100h74" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+  <path d="M46 42c-6-6 6-10 0-18M62 42c-6-6 6-10 0-18" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+</svg>

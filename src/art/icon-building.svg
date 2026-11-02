@@ -1,0 +1,6 @@
+<svg class="door-ico" viewBox="0 0 120 120" aria-hidden="true">
+  <path class="ico-flag" d="M62 14h26l-6 8 6 8H62z"/>
+  <path d="M60 12v22M26 106V40h68v66M16 106h88" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="currentColor"><rect x="38" y="52" width="12" height="10" rx="2"/><rect x="54" y="52" width="12" height="10" rx="2"/><rect x="70" y="52" width="12" height="10" rx="2"/><rect x="38" y="70" width="12" height="10" rx="2"/><rect x="70" y="70" width="12" height="10" rx="2"/></g>
+  <path d="M52 106V86h16v20" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/>
+</svg>

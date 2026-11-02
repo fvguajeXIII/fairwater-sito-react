@@ -1,0 +1,6 @@
+<svg class="door-ico" viewBox="0 0 120 120" aria-hidden="true">
+  <rect x="34" y="10" width="52" height="100" rx="12" fill="none" stroke="currentColor" stroke-width="4"/>
+  <path class="ico-flag" d="M46 34h12v12H46zM62 34h12v12H62zM46 50h12v12H46z"/>
+  <path d="M66 54h4v4h-4zM62 62h4v4h-4zM70 62h4v4h-4z" fill="currentColor"/>
+  <path d="M54 96h12" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+</svg>
