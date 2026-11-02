@@ -260,30 +260,8 @@ p { margin: 0; }
   box-shadow: 0 50px 60px -36px rgba(10, 31, 60, 0.6), inset 0 0 0 2px #2A4775;
 }
 .phone::before { content: ""; position: absolute; top: 21px; left: 50%; width: 84px; height: 24px; border-radius: 20px; background: #030A16; transform: translateX(-50%); z-index: 2; }
-.phone-screen { height: 100%; border-radius: 36px; background: var(--foam); overflow: hidden; display: flex; flex-direction: column; font-size: 12.5px; line-height: 1.35; color: var(--navy); }
-.app-top { background: var(--blue); color: var(--white); padding: 14px 18px 40px; display: grid; gap: 14px; }
-.app-status { display: flex; justify-content: space-between; align-items: center; font-weight: 700; font-size: 12px; padding: 0 6px; }
-.app-sig { display: inline-flex; gap: 2px; align-items: flex-end; }
-.app-sig i { width: 3px; background: #fff; border-radius: 1px; display: block; }
-.app-sig i:nth-child(1) { height: 5px; } .app-sig i:nth-child(2) { height: 8px; } .app-sig i:nth-child(3) { height: 11px; }
-.app-logo { height: 22px; width: auto; justify-self: start; margin-top: 10px; }
-.app-hello { font-weight: 600; font-size: 13.5px; color: #E6F0FF !important; }
-.app-qr { margin: -26px 14px 0; background: var(--white); border-radius: 22px; padding: 14px; display: grid; justify-items: center; gap: 8px; box-shadow: 0 14px 24px -18px rgba(10, 31, 60, 0.5); }
-.app-qr .qr { width: 62%; height: auto; display: block; }
-.app-cap { font-size: 10.5px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft) !important; }
-.app-hint { font-weight: 600; color: var(--navy) !important; }
-.app-stats { display: grid; grid-template-columns: 1.3fr 1fr; gap: 10px; margin: 10px 14px 0; }
-.app-stats > div { background: var(--white); border-radius: 16px; padding: 10px 12px; display: grid; gap: 4px; }
-.app-dots { display: flex; gap: 4px; }
-.app-dots i { width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--blue); display: block; }
-.app-dots i.on { background: var(--blue); }
-.app-num { font-family: var(--display); font-weight: 800; font-size: 16px; color: var(--navy) !important; }
-.app-num.big { font-size: 26px; line-height: 1; }
-.app-near { margin: 10px 14px 0; background: var(--sky); border-radius: 14px; padding: 10px 12px; display: flex; align-items: center; gap: 8px; font-weight: 600; }
-.app-near b { margin-left: auto; font-family: var(--display); white-space: nowrap; }
-.app-near .pin { width: 10px; height: 10px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); background: var(--blue); flex: none; }
-.app-tabs { margin-top: auto; display: flex; justify-content: space-around; background: var(--white); padding: 12px 8px 18px; font-weight: 600; color: var(--ink-soft); border-top: 1px solid var(--line); }
-.app-tabs .on { color: var(--blue); }
+.phone-screen { height: 100%; border-radius: 36px; background: var(--foam); overflow: hidden; }
+.phone-screen img { display: block; width: 100%; height: 100%; object-fit: cover; }
 
 /* Da dove parti */
 .doors { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
