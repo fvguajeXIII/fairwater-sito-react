@@ -2,7 +2,7 @@
 // Se un valore è vuoto, il sito lo gestisce da solo: le righe con l'email spariscono,
 // i dati societari mancanti compaiono come segnaposto sottolineati.
 export const CONFIG = {
-  email: "", // es. info@fairwater.it
+  email: "info@fairwater.it",
   sede: "Via Trento 7",
   piva: "03380680599",
   rea: "LT - 337366",

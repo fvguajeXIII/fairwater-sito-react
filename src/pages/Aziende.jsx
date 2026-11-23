@@ -67,7 +67,7 @@ export default function Aziende() {
           </div>
           <ol className="numbered" style={{ gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,240px),1fr))", gap: "32px" }}>
             <li><h3>Scegli evento e formato</h3><p>Ti mostriamo su una mappa gli eventi del territorio in calendario e scegli dove distribuire le borracce.</p></li>
-            <li><h3>Prepariamo la stampa</h3><p>Ci mandi il logo e noi prepariamo la grafica. Le borracce sono in Tritan, una plastica rigida senza BPA.</p></li>
+            <li><h3>Prepariamo la grafica</h3><p>Ci mandi il logo, noi prepariamo la grafica e la facciamo applicare sulle borracce. Le borracce sono in Tritan, una plastica rigida senza BPA.</p></li>
             <li><h3>Distribuiamo all'evento</h3><p>Le borracce vanno gratis ai partecipanti, che si registrano all'app per usare la ricarica nei bar.</p></li>
             <li><h3>Ricevi il resoconto</h3><p>A fine campagna ti mandiamo un resoconto con le borracce distribuite e la quota versata ai progetti per l'acqua.</p></li>
           </ol>
