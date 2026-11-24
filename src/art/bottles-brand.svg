@@ -1,26 +1,62 @@
-<svg class="bottles-brand" viewBox="0 0 440 560" role="img" aria-label="Tre borracce con il logo della tua azienda stampato sull'etichetta">
+<svg class="bottles-brand" viewBox="0 0 440 590" role="img" aria-label="Tre borracce FairWater con il logo della tua azienda sull'etichetta">
   <defs>
-    <path id="bb-shape" d="M94 64V88C94 104 36 122 36 184V424Q36 454 66 454H186Q216 454 216 424V184C216 122 158 104 158 88V64Z"/>
+    <!-- Profilo della borraccia MO9356: corpo cilindrico alto, spalla morbida, collo corto e tappo in acciaio -->
+    <path id="bb-shape" d="M99 62V71C72 75 52 96 52 136V480Q52 502 74 502H178Q200 502 200 480V136C200 96 180 75 153 71V62Z"/>
     <clipPath id="bb-inside"><use href="#bb-shape"/></clipPath>
-    <linearGradient id="bb-steel" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#9AA4B1"/><stop offset="0.35" stop-color="#F1F4F7"/><stop offset="0.7" stop-color="#C3CAD3"/><stop offset="1" stop-color="#8C96A3"/></linearGradient>
+    <linearGradient id="bb-steel" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#7E8894"/><stop offset="0.18" stop-color="#C9D0D8"/><stop offset="0.42" stop-color="#F4F6F8"/>
+      <stop offset="0.62" stop-color="#CDD3DA"/><stop offset="0.86" stop-color="#9BA5B1"/><stop offset="1" stop-color="#6F7984"/>
+    </linearGradient>
+    <linearGradient id="bb-glass" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#BFD8FF" stop-opacity="0.34"/><stop offset="0.2" stop-color="#E8F1FF" stop-opacity="0.12"/>
+      <stop offset="0.75" stop-color="#BFD8FF" stop-opacity="0.08"/><stop offset="1" stop-color="#BFD8FF" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="bb-water" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#7DB2FF"/><stop offset="1" stop-color="#2A6DD4"/>
+    </linearGradient>
+    <!-- Ombra sui bordi dell'etichetta, per far capire che avvolge un cilindro -->
+    <linearGradient id="bb-curve" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0A1F3C" stop-opacity="0.32"/><stop offset="0.16" stop-color="#0A1F3C" stop-opacity="0.06"/>
+      <stop offset="0.4" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.8" stop-color="#0A1F3C" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#0A1F3C" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="bb-shine" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.25" stop-color="#FFFFFF" stop-opacity="0.75"/>
+      <stop offset="0.8" stop-color="#FFFFFF" stop-opacity="0.45"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
     <g id="bb-bottle">
-      <use href="#bb-shape" fill="#FFFFFF" fill-opacity="0.12"/>
+      <use href="#bb-shape" fill="url(#bb-glass)"/>
       <g clip-path="url(#bb-inside)">
-        <path class="wave-a" fill="#9CC4FF" d="M-60 360Q-28 344 4 360T68 360T132 360T196 360T260 360T324 360V480H-60Z"/>
-        <path class="wave-b" fill="#2A6DD4" d="M-60 398Q-28 384 4 398T68 398T132 398T196 398T260 398T324 398V480H-60Z"/>
-        <rect x="30" y="196" width="200" height="132" fill="#FFFFFF" fill-opacity="0.94"/>
+        <path class="wave-a" fill="#9CC4FF" fill-opacity="0.7" d="M-60 172Q-28 160 4 172T68 172T132 172T196 172T260 172T324 172V520H-60Z"/>
+        <path class="wave-b" fill="url(#bb-water)" d="M-60 182Q-28 172 4 182T68 182T132 182T196 182T260 182T324 182V520H-60Z"/>
+        <rect x="40" y="200" width="172" height="272" fill="#FFFFFF"/>
+        <rect x="40" y="200" width="172" height="272" fill="url(#bb-curve)"/>
+        <use href="#fw-logo" x="84" y="218" width="84" height="20" style="--logo-a:#0A1F3C;--logo-b:#2A6DD4"/>
+        <path d="M78 252H174" stroke="#0A1F3C" stroke-opacity="0.18" stroke-width="2"/>
+        <rect x="62" y="194" width="10" height="290" fill="url(#bb-shine)" opacity="0.7"/>
       </g>
-      <use href="#bb-shape" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round"/>
-      <rect x="86" y="8" width="80" height="58" rx="10" fill="url(#bb-steel)"/>
+      <use href="#bb-shape" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M64 138C66 112 80 96 98 86" fill="none" stroke="#FFFFFF" stroke-opacity="0.6" stroke-width="5" stroke-linecap="round"/>
+      <rect x="98" y="56" width="56" height="12" rx="3" fill="#3B4653"/>
+      <rect x="95" y="6" width="62" height="54" rx="9" fill="url(#bb-steel)"/>
+      <path d="M101 12H151" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    <!-- QR stampato in fondo all'etichetta, come sulla borraccia vera -->
+    <g id="bb-qr" fill="#0A1F3C">
+      <path d="M0 0h10v10H0zM2 2v6h6V2zM20 0h10v10H20zM22 2v6h6V2zM0 20h10v10H0zM2 22v6h6v-6z" fill-rule="evenodd"/>
+      <path d="M13 1h3v3h-3zM14 6h3v3h-3zM12 12h3v3h-3zM17 12h3v3h-3zM22 13h3v3h-3zM26 12h3v3h-3zM13 17h3v3h-3zM18 18h3v3h-3zM23 19h3v3h-3zM13 23h3v3h-3zM18 24h3v6h-3zM23 24h3v3h-3zM27 26h3v4h-3zM0 13h3v3H0zM5 14h3v3H5z"/>
     </g>
   </defs>
-  <use href="#bb-bottle" transform="translate(18 70) rotate(-12 126 260) scale(0.82)" opacity="0.4"/>
-  <use href="#bb-bottle" transform="translate(236 60) rotate(10 126 260) scale(0.82)" opacity="0.4"/>
-  <g transform="translate(94 40) rotate(-3 126 260)">
+  <use href="#bb-bottle" transform="translate(4 78) rotate(-12 126 260) scale(0.8)" opacity="0.45"/>
+  <use href="#bb-bottle" transform="translate(250 66) rotate(10 126 260) scale(0.8)" opacity="0.45"/>
+  <ellipse cx="220" cy="548" rx="86" ry="9" fill="#000000" opacity="0.22"/>
+  <g transform="translate(94 38) rotate(-3 126 260)">
     <use href="#bb-bottle"/>
-    <circle cx="80" cy="262" r="22" fill="#0A1F3C"/>
-    <path d="M80 249l4.1 8.3 9.2 1.3-6.6 6.5 1.5 9.1-8.2-4.3-8.2 4.3 1.5-9.1-6.6-6.5 9.2-1.3Z" fill="#FFFFFF"/>
-    <text x="112" y="254" fill="#0A1F3C" font-family="Archivo, system-ui, sans-serif" font-weight="800" font-stretch="125%" font-size="20" letter-spacing="1">IL TUO</text>
-    <text x="112" y="280" fill="#0A1F3C" font-family="Archivo, system-ui, sans-serif" font-weight="800" font-stretch="125%" font-size="20" letter-spacing="1">LOGO</text>
+    <circle cx="126" cy="300" r="22" fill="#0A1F3C"/>
+    <path d="M126 287l4.1 8.3 9.2 1.3-6.6 6.5 1.5 9.1-8.2-4.3-8.2 4.3 1.5-9.1-6.6-6.5 9.2-1.3Z" fill="#FFFFFF"/>
+    <text x="126" y="348" text-anchor="middle" fill="#0A1F3C" font-family="Archivo, system-ui, sans-serif" font-weight="800" font-stretch="125%" font-size="19" letter-spacing="1">IL TUO</text>
+    <text x="126" y="372" text-anchor="middle" fill="#0A1F3C" font-family="Archivo, system-ui, sans-serif" font-weight="800" font-stretch="125%" font-size="19" letter-spacing="1">LOGO</text>
+    <use href="#bb-qr" transform="translate(111 406)"/>
+    <text x="126" y="452" text-anchor="middle" fill="#0A1F3C" font-family="Instrument Sans, system-ui, sans-serif" font-weight="700" font-size="7.5" letter-spacing="1.2">SCANSIONA</text>
   </g>
 </svg>
