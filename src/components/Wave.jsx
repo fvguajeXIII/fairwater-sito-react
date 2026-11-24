@@ -12,9 +12,9 @@ const STEP = 40;
 // [armonica, ampiezza, fase]: l'armonica è un numero intero, quindi ogni componente
 // si chiude esattamente su un periodo.
 const LAYERS = [
-  { name: "far", base: 40, parts: [[1, 13, 0.4], [2, 7, 2.1], [3, 4, 4.0], [5, 1.6, 1.2]] },
-  { name: "mid", base: 52, parts: [[1, 11, 2.6], [2, 6, 0.3], [4, 3, 3.3], [6, 1.4, 5.1]] },
-  { name: "near", base: 64, parts: [[1, 9, 5.0], [2, 5.5, 1.4], [3, 3.5, 2.8], [7, 1.2, 0.6]] },
+  { name: "far", base: 40, parts: [[1, 17, 0.4], [2, 9, 2.1], [3, 5, 4.0], [5, 2, 1.2]] },
+  { name: "mid", base: 52, parts: [[1, 14, 2.6], [2, 8, 0.3], [4, 4, 3.3], [6, 1.8, 5.1]] },
+  { name: "near", base: 64, parts: [[1, 12, 5.0], [2, 7, 1.4], [3, 4.5, 2.8], [7, 1.5, 0.6]] },
 ];
 
 function height(layer, x) {

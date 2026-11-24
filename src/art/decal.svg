@@ -1,8 +1,8 @@
 <svg class="decal" viewBox="0 0 300 300" role="img" aria-label="L'adesivo FairWater per la vetrina del bar: qui riempi la tua borraccia, acqua gratis">
   <defs>
     <path id="dc-ring" d="M150 150m-104 0a104 104 0 1 1 208 0a104 104 0 1 1-208 0"/>
-    <clipPath id="dc-clip"><circle cx="150" cy="150" r="136"/></clipPath>
-    <!-- Riflesso morbido del vinile lucido: sta sotto le scritte, così non le copre -->
+    <clipPath id="dc-clip"><circle cx="150" cy="150" r="84"/></clipPath>
+    <!-- Riflesso morbido del vinile lucido: solo sul disco centrale e sotto le scritte, così non copre il testo -->
     <linearGradient id="dc-gloss" x1="0.1" y1="0" x2="0.75" y2="1">
       <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
       <stop offset="0.3" stop-color="#FFFFFF" stop-opacity="0.55"/>
@@ -17,7 +17,7 @@
   <circle cx="150" cy="150" r="136" fill="url(#dc-depth)"/>
   <circle cx="150" cy="150" r="124" fill="none" stroke="#2A6DD4" stroke-width="3"/>
   <circle cx="150" cy="150" r="84" fill="#EAF3FF"/>
-  <rect x="0" y="0" width="300" height="300" fill="url(#dc-gloss)" clip-path="url(#dc-clip)"/>
+  <rect x="66" y="66" width="168" height="168" fill="url(#dc-gloss)" clip-path="url(#dc-clip)"/>
   <text fill="#0A1F3C" font-family="Instrument Sans, system-ui, sans-serif" font-weight="700" font-size="17" letter-spacing="2"><textPath href="#dc-ring" textLength="648" lengthAdjust="spacing">QUI RIEMPI LA TUA BORRACCIA · QUI RIEMPI LA TUA BORRACCIA · </textPath></text>
   <use href="#fw-logo" x="88" y="122" width="124" height="29.5" style="--logo-a:#0A1F3C;--logo-b:#2A6DD4"/>
   <rect x="86" y="166" width="128" height="30" rx="15" fill="#0A1F3C"/>
