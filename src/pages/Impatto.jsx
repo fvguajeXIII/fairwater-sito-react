@@ -39,13 +39,19 @@ export default function Impatto() {
         <div className="wrap">
           <div className="head">
             <span className="label">Documenti</span>
-            <h2 id="doc-titolo">Relazioni pubblicate</h2>
+            <h2 id="doc-titolo">Relazioni d'impatto</h2>
           </div>
           <div className="docs">
             <div className="doc">
               <span className="file" aria-hidden="true">PDF</span>
-              <div><h3>Relazione d'impatto 2026</h3><p>Allegata al bilancio di esercizio 2026.</p></div>
-              <a className="btn btn-navy" href={CONFIG.relazione2026Url}>Scarica <Icon name="down" /></a>
+              {CONFIG.relazione2026Url && CONFIG.relazione2026Url !== "#" ? (
+                <>
+                  <div><h3>Relazione d'impatto 2026</h3><p>Allegata al bilancio di esercizio 2026.</p></div>
+                  <a className="btn btn-navy" href={CONFIG.relazione2026Url}>Scarica <Icon name="down" /></a>
+                </>
+              ) : (
+                <div><h3>Relazione d'impatto 2026</h3><p>La pubblicheremo nel 2027 insieme al bilancio di esercizio 2026.</p></div>
+              )}
             </div>
           </div>
         </div>

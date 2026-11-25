@@ -63,8 +63,8 @@ export default function Bar() {
           <ol className="journey">
             <li>
               <span className="stop"><Art name="icon-qr" /></span>
-              <h3>Il cliente mostra il codice</h3>
-              <p>Ha un codice QR personale nell'app FairWater o nel widget sulla schermata del telefono.</p>
+              <h3>Il cliente mostra il QR</h3>
+              <p>Ha un QR personale nell'app FairWater o nel widget sulla schermata del telefono.</p>
             </li>
             <li>
               <span className="stop"><Art name="icon-cup" /></span>

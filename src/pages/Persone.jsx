@@ -1,10 +1,7 @@
 import Art from "../components/Art.jsx";
 import Icon from "../components/Icon.jsx";
-<<<<<<< HEAD
 import { CONFIG } from "../config.js";
 import Stores from "../components/Stores.jsx";
-=======
->>>>>>> a0634c4f61902922b1e813e31246e113b82a3693
 import Wave from "../components/Wave.jsx";
 
 export default function Persone() {
@@ -15,13 +12,9 @@ export default function Persone() {
           <div className="hero-copy">
             <span className="label">Per te</span>
             <h1>Una borraccia in regalo e acqua gratis nei bar della rete.</h1>
-            <p className="lead">La borraccia FairWater la paga un'azienda del territorio e tu la ricevi a un evento. Da quel momento puoi riempirla senza pagare in tutti i bar che aderiscono.</p>
+            <p className="lead">La borraccia FairWater la paga un'azienda del territorio e tu la ricevi a un evento. Da quel momento puoi riempirla senza pagare nei bar che aderiscono alla rete.</p>
             <div className="actions">
-<<<<<<< HEAD
               <a className="btn btn-white" href={CONFIG.webappUrl}>Apri la webapp <Icon name="down" /></a>
-=======
-              <a className="btn btn-white" href="/webapp">Apri la web app <Icon name="arrow" /></a>
->>>>>>> a0634c4f61902922b1e813e31246e113b82a3693
               <a className="btn btn-ghost" href="#regole">Leggi le regole</a>
             </div>
           </div>
@@ -38,7 +31,7 @@ export default function Persone() {
           </div>
           <div className="text">
             <p>Ogni campagna è legata a un evento: una sagra, una fiera, una manifestazione sportiva. Chi partecipa riceve la borraccia con il logo delle aziende che l'hanno sponsorizzata.</p>
-            <p>Insieme alla borraccia ricevi il <strong>codice della campagna</strong>, che ti serve per attivarla nell'app la prima volta.</p>
+            <p>Per usarla ti registri gratis nella <strong>webapp FairWater</strong>: bastano pochi passaggi, e da quel momento il tuo QR è pronto per il bancone.</p>
           </div>
         </div>
       </section>
@@ -57,35 +50,26 @@ export default function Persone() {
             </li>
             <li>
               <span className="stop"><Art name="icon-qr" /></span>
-              <h3>Mostra il tuo codice QR</h3>
-              <p>Il codice è nell'app. Puoi anche metterlo in un widget sulla schermata del telefono, così non devi aprire l'app ogni volta.</p>
+              <h3>Mostra il tuo QR</h3>
+              <p>Il QR è nell'app. Puoi anche metterlo in un widget sulla schermata del telefono, così non devi aprire l'app ogni volta.</p>
             </li>
             <li>
               <span className="stop"><Art name="icon-bottle" /></span>
               <h3>Il barista riempie la borraccia</h3>
-              <p>Legge il codice e te la riempie con acqua filtrata. Non paghi nulla.</p>
+              <p>Scansiona il QR e te la riempie con acqua filtrata. Non paghi nulla.</p>
             </li>
           </ol>
         </div>
       </section>
 
-<<<<<<< HEAD
       <section className="band band-white" id="app" aria-label="Apri la webapp" style={{ paddingTop: 0 }}>
         <div className="wrap">
           <div className="app-strip dark">
             <div>
               <h2>Apri la webapp FairWater.</h2>
-              <p>È gratuita e funziona dal browser, senza scaricare nulla. Ti serve per attivare la borraccia e per mostrare il codice al bancone.</p>
-=======
-      <section className="band band-white" id="app" aria-label="Apri la web app" style={{ paddingTop: 0 }}>
-        <div className="wrap">
-          <div className="app-strip dark">
-            <div>
-              <h2>Apri FairWater dal browser.</h2>
-              <p>La web app è pronta per computer e smartphone. Accedi per attivare la borraccia e mostrare il codice al bancone.</p>
->>>>>>> a0634c4f61902922b1e813e31246e113b82a3693
+              <p>È gratuita e funziona dal browser, senza scaricare nulla. Ti serve per registrarti e per mostrare il tuo QR al bancone.</p>
             </div>
-            <a className="btn btn-white" href="/webapp">Entra nella web app <Icon name="arrow" /></a>
+            <a className="btn btn-white" href={CONFIG.webappUrl}>Entra nella webapp <Icon name="arrow" /></a>
           </div>
         </div>
       </section>
@@ -136,7 +120,7 @@ export default function Persone() {
               <div className="answer"><p>No. La borraccia non è in vendita: la pagano le aziende che sponsorizzano le campagne e la ricevi gratis agli eventi.</p></div>
             </details>
             <details>
-              <summary>Posso riempire un'altra borraccia mostrando il mio codice?</summary>
+              <summary>Posso riempire un'altra borraccia mostrando il mio QR?</summary>
               <div className="answer"><p>No. Il servizio vale solo per le borracce FairWater e il barista può rifiutare gli altri contenitori. È anche il modo in cui le aziende che pagano le borracce ottengono visibilità.</p></div>
             </details>
             <details>
